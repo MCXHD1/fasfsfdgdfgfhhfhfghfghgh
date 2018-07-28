@@ -284,3 +284,6 @@ For additional help,  `)
          message.channel.send({embed:embed});
                         }
                     });
+
+
+client.login(process.env.NDY5ODU4MjU2NDgzNzc4NTYx.Dj14ig.rHgrUr3EKWXQJsOCdz5eF-PPOrg);
