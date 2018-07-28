@@ -284,3 +284,5 @@ For additional help,  `)
          message.channel.send({embed:embed});
                         }
                     });
+
+client.login(discord_token);
