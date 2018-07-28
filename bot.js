@@ -286,4 +286,4 @@ For additional help,  `)
                     });
 
 
-client.login(process.env.NDY5ODU4MjU2NDgzNzc4NTYx.Dj14ig.rHgrUr3EKWXQJsOCdz5eF-PPOrg);
+client.login(NDY5ODU4MjU2NDgzNzc4NTYx.Dj14ig.rHgrUr3EKWXQJsOCdz5eF-PPOrg);
