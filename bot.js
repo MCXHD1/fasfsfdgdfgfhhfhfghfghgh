@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '!'
+const prefix = 'A'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -59,7 +59,7 @@ exports.start = (client, options) => {
       this.commands = new Map();
       this.aliases = new Map();
       this.youtubeKey = (options && options.youtubeKey);
-      this.botPrefix = (options && options.prefix) || '!';
+      this.botPrefix = (options && options.prefix) || 'A';
       this.embedColor = (options && options.embedColor) || 'GREEN';
       this.thumbnailType = (options && options.thumbnailType) || "high";
       this.anyoneCanLeave = Boolean((options && options.anyoneCanLeave) || false);
