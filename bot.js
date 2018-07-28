@@ -28,8 +28,6 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
   console.log('')
 });
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const request = require('request');
 const fs = require('fs');
@@ -37,7 +35,6 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = 'A';
 const discord_token = "NDY5ODU4MjU2NDgzNzc4NTYx.Dj14ig.rHgrUr3EKWXQJsOCdz5eF-PPOrg";
 client.login(discord_token);
 client.on('ready', function() {
